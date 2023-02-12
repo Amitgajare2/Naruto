@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project X</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+<!-- <ion-icon name="film-sharp"></ion-icon>  -->
+
+<body>
+
+    <nav class="navbar">
+        <ion-icon name="film-sharp" class="logo"></ion-icon>
+        <input type="checkbox" id="toggler">
+        <label for="toggler"><ion-icon name="ellipsis-vertical" class="toggler"></ion-icon></label>
+        <div class="menu">
+            <ul class="list">
+                <li><a href="#" style="color:rgb(79, 79, 239);">Home</a></li>
+                <li><a href="#" target="_blank">About</a></li>
+                <li><a href="#" target="_blank">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="left">
+                <h1>Naruto</h1>
+                <p><b style="color: rgb(100, 100, 230);">Naruto</b> is a Japanese manga series written and illustrated
+                    by <b>Masashi Kishimoto.</b> It tells the story of Naruto Uzumaki, a young ninja who seeks
+                    recognition from his peers and dreams of becoming the <b>Hokage</b>, the leader of his village.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="right">
+                <img src="./assets/lop.png" alt="">
+            </div>
+        </div>
+        <div class="bottom">
+            <p>Naruto</p>
+            <p>Kakashi</p>
+            <p>Sasuke</p>
+            <p>Itachi</p>
+            <p>Shikamaru</p>
+            <p>Jiraiya</p>
+            <p>Hinata</p>
+            <p>Gaara</p>
+            <p>Madara</p>
+        </div>
+    </header>
+
+    <section class="main-box">
+
+        <div class="head-title">
+            <h2>WATCH</h2>
+            <p>In Order</p>
+        </div>
+
+        <div class="cards" id="cards"></div>
+        <div id="load"><ion-icon name="filter"></ion-icon></div>
+
+        <div class="social-icon">
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-codepen"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-reddit"></ion-icon></a>
+        </div>
+        <div class="img-box">
+            <img src="../assets/20221216_213427.png" alt="">
+        </div>
+
+        <div class="footer">
+            <h4>Made by Amit Gajare</h4>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
